@@ -1,0 +1,27 @@
+/* Write your code here: */
+/* grouping multiple elements with tag, id and class and attribute */
+h1, h2{
+    color: blueviolet;
+}
+
+/* selecting a child of a parent(direct child) => parent>directChild */
+.box>p{
+    color: firebrick;
+}
+
+/* Descendant combination, it applies to the right hand selector as long as they are a descendant of the left hand side selector. => parent descendant  . 
+In below example, li elements as long as they are withing class .box get color blue, no matter they are the first child or direct child or the nth descendant*/
+
+.box li{
+    color: blue;
+}
+
+/* Chain selector=> selectorSelectorSelector with no space between the selectors it targets to an elements where every selector is true. The order is elementsIdAttributeClassClassClassClass what is says it says I'm looking for something with the element tag, id of ... attribute of ... class of ... and I want to style this particular element.*/
+li.done{
+    color: seagreen;
+}
+
+/* Combining Combiners, ancestor chainSelector  In below example, the UL is ancestor and p.done is the chaining*/
+ul p.done{
+    font-size: 0.5rem;
+}
