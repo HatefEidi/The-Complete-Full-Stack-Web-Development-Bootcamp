@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>CSS Positioning Exercise</title>
+  <style>
+    /* Write your code here */
+    .blue-box {
+      width: 500px;
+      height: 300px;
+      background-color: blue;
+      position: relative;
+      left: 200px;
+      top: 200px;
+    }
+    .red-circle{
+      width: 200px;
+      height: 200px;
+      background-color: red;
+      border-radius: 50%;
+      position:absolute;
+      /* Position absolute will take the direct position of the any parent who has relative position set, it no parent has relative position, it will take the direct body position meaning from the left and top side of the whole screen, In this case because the body has relative position, it will take the direct Position of .blue-box div */
+      top: 150px;
+      left: 250px;
+    }
+    .body {
+
+      margin: 0;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="blue-box">
+    <div class="red-circle">
+    </div>
+  </div>
+
+</body>
+
+</html>
