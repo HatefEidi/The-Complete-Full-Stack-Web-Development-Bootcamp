@@ -113,10 +113,16 @@ section{
     
     font-weight: 700;
 }
+.skill-title{
+    font-size: 25px;
+    font: weight 800px;
+
+}
 .section-title{
     margin-bottom: 40px;
     margin-top:40px;
     text-shadow: var(--text-shadow-primary-color);
+    font-size: 50px;
 }
 .skill{
     display: flex;
@@ -157,24 +163,7 @@ section{
     padding-top: 20px;
 }
 
-/* <section>
-        <h2 class="section-title">CONTACT</h2>
-        <div class="contact">
-            <div class="contact-info">
-                    <p>"Got a project in mind or just want to say hello? <br>Feel free to reach out!<br> I'm always happy to connect,<br> whether it's about web development, coding, or just a good chat.<br> Drop me a message, and I'll get back to you as soon as I can!"</p>
-                
-                <div class="contact-type"><a href="mailto:hatefeidi@icloud.com">Email</a>
-                </div>
-            </div>  
-        </div>  
-    </section>
-    <footer>
-        <div class="social-media-links">
-            <a href="https://www.linkedin.com/in/hatef-ali-1b5b4b200/" target="_blank"><img src="./images/linkedin.png" alt="LinkedIn"></a>
-            <a href="https://github.com/hatefeidi" target="_blank"><img src="./images/github.png" alt="GitHub"></a>
-            <a href="https://www.instagram.com/hatefeidi/" target="_blank"><img src="./images/instagram.png" alt="Instagram"></a>
-        </div>
-        <div class="copyright">© 2025 Hatef Eidi. All rights reserv */
+/* Contact me */
 
 .contact-info p{
     font-size: 18px;
@@ -196,6 +185,9 @@ a{
     color: #000f13;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.308);;
 }
+
+
+/* Footer */
 footer{
     height: 50vh;
     background: var(--gradient-background-footer);
@@ -232,8 +224,3 @@ footer{
     text-shadow: var(--text-shadow-primary-color);
 }
 
-/* <div class="social-media-links">
-            <a href="https://www.linkedin.com/in/hatef-eidi/" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24" height="24" focusable="false">
-                <path d="M20.5 2h-17A1.5 1.5 0 002 3.5v17A1.5 1.5 0 003.5 22h17a1.5 1.5 0 001.5-1.5v-17A1.5 1.5 0 0020.5 2zM8 19H5v-9h3zM6.5 8.25A1.75 1.75 0 118.3 6.5a1.78 1.78 0 01-1.8 1.75zM19 19h-3v-4.74c0-1.42-.6-1.93-1.38-1.93A1.74 1.74 0 0013 14.19a.66.66 0 000 .14V19h-3v-9h2.9v1.3a3.11 3.11 0 012.7-1.4c1.55 0 3.36.86 3.36 3.66z"></path>
-              </svg>Linkedin</a>
-            <a href="https://git */
