@@ -15,7 +15,6 @@ This website is a simple yet stylish personal site that includes:
 
 * **HTML** for structure
 * **CSS** for styling (including gradients, flexbox, and animations)
-* **JavaScript** (optional, if you added interactivity)
 
 ## **What I Learned** 📚
 
