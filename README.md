@@ -36,6 +36,6 @@ As I continue to learn, I plan to:
 
 ## **Live Demo & Contact** 📩
 
-You can check out the live version of my website [here](#)  *(Replace with your deployed link)* .
+You can check out the live version of my website [here](https://hatefspersonalwebsite.netlify.app/)  
 
 If you’d like to connect, feel free to reach out via email or social media!
