@@ -18,7 +18,8 @@ app.get("/10", (req, res) => {
 });
 app.post("/submit100", (req, res) => {
   console.log();
-  res.send(`Form submitted successfully thank you ${req.body.street} ${req.body.pet}!`);
+  res.send(`<h1>Form submitted successfully thank you </h1>
+    Your band mame is: ${req.body.street} ${req.body.pet}!`);
 });
 
 
