@@ -1,7 +1,26 @@
 import express from "express";
+import path from "path";
+import { dirname } from "path";
+import { fileURLToPath } from "url";
+import bodyParser from "body-parser";
+
+const __dirname = dirname(fileURLToPath(import.meta.url));
 
 const app = express();
 const port = 3000;
+
+app.use(bodyParser.urlencoded({ extended: true }));
+app.use(express.static(path.join(__dirname, "public")));
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
+app.get("/10", (req, res) => {
+  res.sendFile(__dirname + "/public/index.html");
+});
+app.post("/submit100", (req, res) => {
+  console.log();
+  res.send(`Form submitted successfully thank you ${req.body.street} ${req.body.pet}!`);
+});
+
 
 app.listen(port, () => {
   console.log(`Listening on port ${port}`);
